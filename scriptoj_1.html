@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>W3Cschool教程 React 实例</title>
+    <script src="//www.w3cschool.cn/statics/assets/react/react.min.js"></script>
+    <script src="//www.w3cschool.cn/statics/assets/react/react-dom.min.js"></script>
+    <script src="//www.w3cschool.cn/statics/assets/react/babel.min.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+    renderContent("hello");
+    function renderContent(content) {
+        ReactDOM.render(
+            <h1>{content}</h1>,
+            document.getElementById("root")
+        )
+    }
+</script>
+</body>
+</html>
