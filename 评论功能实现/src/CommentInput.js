@@ -43,6 +43,7 @@ class CommentInput extends Component{
                 </div>
                 <div className='comment-field-button'>
                     <button onClick={this.handleSubmit.bind(this)}>
+                        <!--调用了onSubmit代表的函数即handleSubmitComment,最后给CommentList增加了一个评论-->
                         发布
                     </button>
                 </div>
